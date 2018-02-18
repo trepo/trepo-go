@@ -1,0 +1,7 @@
+{
+  "docs": {
+    "Introduction": ["introduction", "concepts"],
+    "Trepo Server": ["usage", "access", "internals"],
+    "Types": ["core"]
+  }
+}
