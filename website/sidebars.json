@@ -1,7 +1,13 @@
 {
   "docs": {
-    "Introduction": ["introduction", "concepts"],
-    "Trepo Server": ["usage", "access", "internals"],
-    "Types": ["core"]
+    "Get Started": ["introduction", "concepts"],
+    "Trepo Server": ["usage", "access", "graphql"],
+    "Internals" : ["format"],
+    "Types": [
+      "adoption",
+      "date",
+      "person",
+      "place"
+    ]
   }
 }
