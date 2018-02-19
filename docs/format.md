@@ -34,6 +34,6 @@ They type can be any string matching `[A-Za-z][A-Za-z0-9_]{0,217}`
 
 
 ### Notes
-- Does a commit have to contain the from/to nodes for every edge? Is it optional?
+- Does a commit have to contain the from/to nodes for every edge? Is it optional? Answer: Yes. The edge ID contains enough information.
 - The amount of information per node is kept small on purpose, as overrides are on an element by element basis
 - Null may be used to denote deleted/not present?
