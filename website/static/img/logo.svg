@@ -1,0 +1,47 @@
+<svg width="352" height="352" viewBox="0 0 352 224" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(70 -4)">
+<g id="Group">
+<g id="dash">
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="matrix(-1 -1.22465e-16 1.22465e-16 -1 122 100)" fill="#F8F8F8"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path1_fill" transform="matrix(-1 -1.22465e-16 1.22465e-16 -1 106 92)" fill="#F8F8F8"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path1_fill" transform="matrix(-1 -1.22465e-16 1.22465e-16 -1 282 92)" fill="#F8F8F8"/>
+</g>
+</g>
+<g id="dash">
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(90 4)" fill="#F8F8F8"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path1_fill" transform="translate(106 12)" fill="#F8F8F8"/>
+</g>
+</g>
+<g id="dash">
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(90 196)" fill="#F8F8F8"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path1_fill" transform="translate(106 204)" fill="#F8F8F8"/>
+</g>
+</g>
+<g id="dash">
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="matrix(-1 -1.22465e-16 1.22465e-16 -1 122 164)" fill="#F8F8F8"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path1_fill" transform="matrix(-1 -1.22465e-16 1.22465e-16 -1 106 156)" fill="#F8F8F8"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 32 16C 32 24.8366 24.8366 32 16 32C 7.16344 32 0 24.8366 0 16C 0 7.16344 7.16344 0 16 0C 24.8366 0 32 7.16344 32 16Z"/>
+<path id="path1_fill" d="M 0 8C 0 3.58172 3.58172 0 8 0L 168 0C 172.418 0 176 3.58172 176 8L 176 8C 176 12.4183 172.418 16 168 16L 8 16C 3.58172 16 0 12.4183 0 8L 0 8Z"/>
+</defs>
+</svg>
