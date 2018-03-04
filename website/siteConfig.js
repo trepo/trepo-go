@@ -23,9 +23,6 @@ const siteConfig = {
   projectName: 'trepo',
   headerLinks: [
     {doc: 'introduction', label: 'Docs'},
-    // {doc: 'doc4', label: 'API'},
-    // {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
   ],
   users,
   /* path to images for header/footer */
