@@ -2,13 +2,13 @@
 id: format
 title: Format
 ---
-### Commit
-- `id` - The id of the commit (`required`, incrementing integer)
-- `prev` - The id of the previous commit (`optional`, integer, used for CAS)
-- `author` - The commit author (`optional`, `Name <email>` format)
-- `message` - The commit message (`optional`, string)
-- `nodes` - The commit nodes (`required`, array)
-- `edges` - The commit edges (`required`, array)
+### Log Entry
+- `id` - The id of the entry (`required`, incrementing integer)
+- `prev` - The id of the previous entry (`optional`, integer, used for CAS)
+- `author` - The entry author (`optional`, `Name <email>` format)
+- `message` - The entry message (`optional`, string)
+- `nodes` - The entry nodes (`required`, array)
+- `edges` - The entry edges (`required`, array)
 
 ### Node
 - `id` - The node id (`required`, ID, immutable)
@@ -34,6 +34,6 @@ They type can be any string matching `[A-Za-z][A-Za-z0-9_]{0,217}`
 
 
 ### Notes
-- Does a commit have to contain the from/to nodes for every edge? Is it optional? Answer: Yes. The edge ID contains enough information.
+- Does an entry have to contain the from/to nodes for every edge? Is it optional? Answer: Yes. The edge from/to ID contains enough information.
 - The amount of information per node is kept small on purpose, as overrides are on an element by element basis
-- Null may be used to denote deleted/not present?
+- To delete a Node, `shard` and `props` are set to Null. To delete an Edge, `props` is set to Null.

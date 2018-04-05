@@ -2,6 +2,18 @@
 
 
 [[projects]]
+  name = "github.com/gorilla/context"
+  packages = ["."]
+  revision = "1ea25387ff6f684839d82767c1733ff4d4d15d0a"
+  version = "v1.1"
+
+[[projects]]
+  name = "github.com/gorilla/mux"
+  packages = ["."]
+  revision = "53c1911da2b537f792e7cafcb446b05ffe33b996"
+  version = "v1.6.1"
+
+[[projects]]
   branch = "master"
   name = "github.com/graph-gophers/graphql-go"
   packages = [
@@ -41,6 +53,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "80497af9007b41dc4eefb5f55e6272f2cb57bdb5b82ad6b9f14914fc56cbf263"
+  inputs-digest = "3196ac46829a6263037d282c63a37fef04b93b5c12530ad2ae89dbe4a867f6a5"
   solver-name = "gps-cdcl"
   solver-version = 1
